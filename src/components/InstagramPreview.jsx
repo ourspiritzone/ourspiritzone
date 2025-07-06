@@ -4,23 +4,23 @@ const InstagramPreview = () => {
   const posts = [
     {
       id: 1,
-      image: "https://source.unsplash.com/featured/?nature,calm",
-      link: "https://www.instagram.com/p/Csample1/",
+      image: "/images/ig-post-1.jpg",
+      link: "https://www.instagram.com/p/DCAyrfShnZb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
     {
       id: 2,
-      image: "https://source.unsplash.com/featured/?meditation",
-      link: "https://www.instagram.com/p/Csample2/",
+      image: "/images/ig-post-2.jpg",
+      link: "https://www.instagram.com/p/DIGjK11qVN-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
     {
       id: 3,
-      image: "https://source.unsplash.com/featured/?zen,wellness",
-      link: "https://www.instagram.com/p/Csample3/",
+      image: "/images/ig-post-3.jpg",
+      link: "https://www.instagram.com/reel/DC04rMaBsLb/?utm_source=ig_web_copy_link",
     },
     {
       id: 4,
-      image: "https://source.unsplash.com/featured/?healing,peace",
-      link: "https://www.instagram.com/p/Csample4/",
+      image: "/images/ig-post-4.jpg",
+      link: "https://www.instagram.com/reel/C9nYO8ht7pL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
   ];
 
