@@ -30,7 +30,7 @@ const InstagramPreview = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-[#2e2e2e]">
           Follow @the.spirit.zone
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {posts.map((post) => (
             <a
               key={post.id}
@@ -42,7 +42,7 @@ const InstagramPreview = () => {
               <img
                 src={post.image}
                 alt="Instagram preview"
-                className="w-full h-60 object-cover rounded-md"
+                className="w-full h-80 object-cover rounded-md"
               />
             </a>
           ))}
